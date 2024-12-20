@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. APJ Abdul Kalam Biography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+            line-height: 1.6;
+            color: #fff; /* Text color for better readability */
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #1e212d;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #f39c12;
+            color: #fff;
+        }
+
+        /* Main Content Styling */
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        /* Image Styling */
+        .image-container {
+            margin-bottom: 30px;
+            overflow: hidden;
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.4s ease;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            transition: transform 0.4s ease;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Biography Section */
+        .biography {
+            background-color: white;
+            padding: 30px;
+            margin-top: 50px;
+            border-radius: 8px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+            color: #333;
+        }
+
+        .biography h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .biography p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .biography p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Hover Effects for Biography */
+        .biography:hover {
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #1e212d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #e67e22;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            nav a {
+                padding: 12px 15px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .image-container {
+                width: 200px;
+                height: 200px;
+            }
+
+            .biography h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#biography">Biography</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Image of Dr. APJ Abdul Kalam -->
+        <div class="image-container">
+            <img src="download.jpg" alt="APJ Abdul Kalam">
+        </div>
+
+        <!-- Biography Section -->
+        <div class="biography" id="biography">
+            <h2>Dr. APJ Abdul Kalam</h2>
+            <p>Dr. Avul Pakir Jainulabdeen Abdul Kalam, known as the "Missile Man of India," was born on October 15, 1931, in Rameswaram, Tamil Nadu. He was an eminent scientist and the 11th President of India, serving from 2002 to 2007.</p>
+
+            <p>Dr. Kalam played a pivotal role in India's nuclear and missile programs. As the Chief Scientific Advisor to the Prime Minister, he was instrumental in the success of India’s nuclear tests in 1998. He was also deeply involved in developing the country's space programs.</p>
+
+            <p>He was known for his humility, visionary thinking, and commitment to the development of India. After his presidency, he continued to be an educator and a mentor, inspiring young minds across the country. His contributions to science and the nation earned him several prestigious awards, including the Bharat Ratna, India's highest civilian honor.</p>
+
+            <p>Dr. Kalam passed away on July 27, 2015, but his legacy lives on through his work, his inspiring speeches, and his teachings. He will always be remembered as one of India's most beloved leaders and thinkers.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Learn more about <strong>Dr. APJ Abdul Kalam</strong>. <a href="https://en.wikipedia.org/wiki/APJ_Abdul_Kalam" target="_blank">Visit Wikipedia</a></p>
+    </footer>
+
+</body>
+</html>
